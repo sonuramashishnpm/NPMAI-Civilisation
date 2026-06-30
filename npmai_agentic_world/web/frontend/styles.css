@@ -408,7 +408,7 @@ h1, h2, h3, h4 {
   text-shadow: 0 0 60px var(--secondary-glow);
 }
 .hero h1 .line { display: block; overflow: hidden; }
-.hero h1 .line span { display: inline-block; }
+.hero h1 .line span { display: inline-block; margin-top:30px;}
 .hero h1 .glow {
   background: linear-gradient(120deg, var(--secondary), var(--primary) 60%, var(--secondary));
   -webkit-background-clip: text;
