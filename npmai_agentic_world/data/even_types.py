@@ -12,6 +12,12 @@ by dashboards/queries, and helpers to map one to the other.
 
 from __future__ import annotations
 
+from pathlib import Path
+import sys
+root_dir = Path(__file__).resolve().parent.parent
+if str(root_dir) not in sys.path:
+    sys.path.append(str(root_dir))
+    
 import uuid
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
